@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add New Interest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+      <div class="container">
+            <nav class="navbar navbar-expand-sm bg-light navbar-light">
+
+                <!-- Links -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="mypage_bootstrap.html">Home</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+        <div class="container">
+            <h1>Add New Interest</h1>
+
+            <form>
+                <div class="form-group">
+                    <label for="interestName">Interest Name</label>
+                    <input type="text" class="form-control" id="interestName" placeholder="Name">
+                </div>
+                <div class="form-group">
+                        <label for="textAboutInterest">Text About Interest</label>
+                        <textarea class="form-control" id="textAboutInterest" rows="4"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <label for="fileUpload">Upload Local Image:</label>
+                        <input type="file" class="form-control-file" id="fileUpload">
+                    </div>
+                    <div class="col">
+                        <label for="selectNumTweets">Select # Tweets to display</label>
+                        <select class="form-control custom-select" id="selectNumTweets">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                        </select>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="inlineCheckbox1">On a scale of 1-5, how interested in this are you?</label>
+                    <br>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                        <label class="form-check-label" for="inlineCheckbox1">1</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                        <label class="form-check-label" for="inlineCheckbox2">2</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                        <label class="form-check-label" for="inlineCheckbox3">3</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                        <label class="form-check-label" for="inlineCheckbox4">4</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" id="inlineCheckbox5" value="option5">
+                        <label class="form-check-label" for="inlineCheckbox5">5</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Select # Tweets to display</label>
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Username">
+                        </div>
+                        <div class="col">
+                            <input type="password" class="form-control" placeholder="Password">
+                        </div>
+                    </div>
+                
+                </div>
+            
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    
+
+  </body>
+</html>
